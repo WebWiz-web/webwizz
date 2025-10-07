@@ -22,12 +22,6 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 revealOnScroll(); // Trigger on load
 
-// Mobile menu toggle
-const menu = document.getElementById('mobile-menu');
-const navLinks = document.querySelector('.nav-links');
-menu.addEventListener('click', () => {
-  navLinks.classList.toggle('active');
-});
 
 // Scroll to Top button
 const scrollTopBtn = document.getElementById('scrollTopBtn');

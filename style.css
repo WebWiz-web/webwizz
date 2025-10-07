@@ -53,6 +53,17 @@ h1, h2, h3 {
   color: #0077ff; /* headings in brand blue */
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+}
+
 p, .service-card p, .portfolio-overlay h3, .contact p {
   color: #333; /* slightly darker for body text */
 }
